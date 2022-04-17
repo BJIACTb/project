@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Container, Form, FormControl, Nav, Navbar, } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilm, faHome, faNewspaper, faPlay, faTicket, faTv } from '@fortawesome/free-solid-svg-icons';
-import Footer from './footer';
+import Footer from './Footer';
 
 
 
