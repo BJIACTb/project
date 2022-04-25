@@ -3,6 +3,7 @@ import { Button, Container, Form, FormControl, Nav, Navbar, } from 'react-bootst
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilm, faHome, faNewspaper, faPlay, faTicket, faTv } from '@fortawesome/free-solid-svg-icons';
 import Footer from './Footer';
+import Main from './Main';
 
 
 
@@ -48,6 +49,7 @@ function App() {
   </Container>
 </Navbar>
 
+<Main/>
 
 <Footer/>
 
