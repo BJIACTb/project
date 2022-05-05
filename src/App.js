@@ -1,9 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Container, Form, FormControl, Nav, Navbar, } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFilm, faHome, faNewspaper, faPlay, faTicket, faTv } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faFilm, faHome, faNewspaper, faPlay, faReceipt, faTicket, faTv } from '@fortawesome/free-solid-svg-icons';
 import Footer from './Footer';
 import Main from './Main';
+import { Routes, Route } from 'react-router-dom';
 
 
 
@@ -29,12 +30,10 @@ function App() {
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-        <Nav.Link href="#action1"><FontAwesomeIcon icon={faHome}></FontAwesomeIcon> Главная</Nav.Link>
-        <Nav.Link href="#action2"><FontAwesomeIcon icon={faPlay}></FontAwesomeIcon> Онлайн-кинотеатр</Nav.Link>
-        <Nav.Link href="#action3"><FontAwesomeIcon icon={faFilm}></FontAwesomeIcon> Фильмы</Nav.Link>
-        <Nav.Link href="#action4"><FontAwesomeIcon icon={faTv}></FontAwesomeIcon> Сериалы</Nav.Link>
-        <Nav.Link href="#action5"><FontAwesomeIcon icon={faTicket}></FontAwesomeIcon> Билеты и кино</Nav.Link>
-        <Nav.Link href="#action6"><FontAwesomeIcon icon={faNewspaper}></FontAwesomeIcon> Новости</Nav.Link>
+        <Nav.Link href="/"><FontAwesomeIcon icon={faHome}></FontAwesomeIcon> Главная</Nav.Link>
+        <Nav.Link href="/play"><FontAwesomeIcon icon={faPlay}></FontAwesomeIcon> Онлайн-кинотеатр</Nav.Link>
+        <Nav.Link href="/news"><FontAwesomeIcon icon={faNewspaper}></FontAwesomeIcon> Новости</Nav.Link>
+        <Nav.Link href="/receipt"><FontAwesomeIcon icon={faReceipt}></FontAwesomeIcon> Промокоды</Nav.Link>
       </Nav>
       <Form className="d-flex">
         <FormControl
@@ -49,7 +48,12 @@ function App() {
   </Container>
 </Navbar>
 
-<Main/>
+
+<Routes>
+    <Route path="/" element={<Main/>}/>
+</Routes>
+
+
 
 <Footer/>
 

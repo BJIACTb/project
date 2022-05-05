@@ -19,34 +19,34 @@ function Footer() {
 			</div>
 			<div class="link-boxes">
 				<ul class="box">
-					<li class="link_name">Links</li>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Get Started</a></li>
+					<li class="link_name">1</li>
+					<li><a href="#">Центр поддержки</a></li>
+					<li><a href="#">Конфиденциальность</a></li>
+					<li><a href="#">Настройки файлов cookie</a></li>
+					<li><a href="#">Юридические уведомления</a></li>
 
 				</ul>
 				<ul class="box">
-					<li class="link_name">Services</li>
-					<li><a href="#">App Design</a></li>
-					<li><a href="#">Web Design</a></li>
-					<li><a href="#">Logo Design</a></li>
-					<li><a href="#">Banner Design</a></li>
+					<li class="link_name">2</li>
+					<li><a href="#">Способы просмотра</a></li>
+					<li><a href="#">Корпоративная информация</a></li>
+					<li><a href="#">Медиацентр</a></li>
+					<li><a href="#">Правила использования</a></li>
 
 				</ul>
 				<ul class="box">
-					<li class="link_name">Other services</li>
-					<li><a href="#">SEO</a></li>
-					<li><a href="#">Content Marketing</a></li>
-					<li><a href="#">Prints</a></li>
-					<li><a href="#">Social Media</a></li>
+					<li class="link_name">3</li>
+					<li><a href="#">Распространенные вопросы</a></li>
+					<li><a href="#">Аккаунт</a></li>
+					<li><a href="#">Свяжитесь с нами</a></li>
+					<li><a href="#">Только на Bkino</a></li>
 
 				</ul>
 				<ul class="box">
-					<li class="link_name">Contact</li>
+					<li class="link_name">Котакты</li>
 					<li><a href="#">+91 8879887262</a></li>
 					<li><a href="#">+91 8879887262</a></li>
-					<li><a href="#">contact@sitesoch.com</a></li>
+					<li><a href="#">Bkino@movies.com</a></li>
 
 
 				</ul>
