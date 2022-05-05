@@ -70,7 +70,7 @@ const Main = (props) => {
   
   return(
     <div className='main'>
-      <h1 className='head'>Movieflix</h1>
+      <h1 className='head'>Bkino</h1>
       <Search 
         getInputValue={val => setKeyword(val)} 
         sendEnter={() => getMovies(keyword)} 
@@ -82,7 +82,7 @@ const Main = (props) => {
         { loading ? <Loader /> : 
         (allCards.length === 0 ? 
          <div className='error'>
-           No movie found...
+           Поиск фильма...
            <i class="far fa-grin-beam-sweat"></i>
          </div> : allCards) }
       </div>
