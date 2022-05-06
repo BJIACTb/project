@@ -1,13 +1,13 @@
 import React from "react"
 import "./Footer.css"
 
-function Footer() {
+function Footer(props) {
 	return <footer className="Footer">
 
 		<div class="content">
 			<div class="top">
 				<div class="logo-details">
-					<span class="logo_name">Sitesoch</span>
+					<span class="logo_name">{props.message}</span>
 				</div>
 				<div class="media-icons">
 					<a href="#"><i class="fa-brands fa-facebook"></i></a>

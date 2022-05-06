@@ -5,6 +5,8 @@ import { faCoffee, faFilm, faHome, faNewspaper, faPlay, faReceipt, faTicket, faT
 import Footer from './Footer';
 import Main from './Main';
 import { Routes, Route } from 'react-router-dom';
+import News from './About';
+import About from './About';
 
 
 
@@ -32,7 +34,7 @@ function App() {
       >
         <Nav.Link href="/"><FontAwesomeIcon icon={faHome}></FontAwesomeIcon> Главная</Nav.Link>
         <Nav.Link href="/play"><FontAwesomeIcon icon={faPlay}></FontAwesomeIcon> Онлайн-кинотеатр</Nav.Link>
-        <Nav.Link href="/news"><FontAwesomeIcon icon={faNewspaper}></FontAwesomeIcon> Новости</Nav.Link>
+        <Nav.Link href="/about"><FontAwesomeIcon icon={faNewspaper}></FontAwesomeIcon> Новости</Nav.Link>
         <Nav.Link href="/receipt"><FontAwesomeIcon icon={faReceipt}></FontAwesomeIcon> Промокоды</Nav.Link>
       </Nav>
       <Form className="d-flex">
@@ -51,11 +53,12 @@ function App() {
 
 <Routes>
     <Route path="/" element={<Main/>}/>
+    <Route path="/about" element={<About/>}/>
 </Routes>
 
 
 
-<Footer/>
+<Footer message='Footer'/>
 
     </div>
   );
