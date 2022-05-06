@@ -13,19 +13,6 @@ body {
   background: linear-gradient(to right, #42275a, #734b6d);
   margin: 0;
   padding: 0;
-  &::-webkit-scrollbar-track{
-    background-color: #734b6d;
-  }
-
-  &::-webkit-scrollbar{
-    width: 6px;
-    height: 6px;
-    background-color: transparent;
-  }
-
-  &::-webkit-scrollbar-thumb{
-    background-color: #42275a;
-  }
 }
 
 img{
